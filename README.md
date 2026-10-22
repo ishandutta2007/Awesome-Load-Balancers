@@ -1,52 +1,45 @@
-# Awesome-Load-Balancers
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Load Balancers Banner" width="100%">
+</p>
 
-## Top Load Balancers Ecosystem
+# ?? Awesome-Load-Balancers: Top Load Balancers Ecosystem
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Load-Balancers?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Load-Balancers?style=flat-square&logo=github" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Load-Balancers?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> ?? **A curated directory and comparative guide of Application Delivery Controllers (ADC), SaaS load balancing services, reverse proxies, and open-source traffic management software.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Layer 4 (TCP/UDP) & Layer 7 (HTTP/HTTPS/gRPC) Traffic Distribution, High Availability, Kubernetes Ingress, Service Mesh Data Planes, and Self-Hosted Proxy Infrastructure.*
 
-*Focused on L4/L7 Traffic Distribution, High Availability & Self-Hosted Proxy Infrastructure*  
+---
 
-**Last updated: October 2026**
+## ?? Table of Contents
 
+- [?? Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [?? SaaS & Hosted Platforms](#?-saas--hosted-platforms)
+- [?? Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Tier Load Balancers & Proxies](#top-tier-load-balancers--proxies)
+  - [Specialized & High-Throughput Solutions](#specialized--high-throughput-solutions)
+- [?? How to Contribute](#-how-to-contribute)
+- [?? Support](#-support)
+- [?? Star History](#-star-history)
+- [?? Disclaimer](#-disclaimer)
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Load Balancers**. These tools distribute incoming traffic across multiple backend servers—ensuring high availability, preventing overload, and enabling seamless scaling—ranging from hardware ADC appliances to lightweight software proxies that run in containers.
-
-
-
-**Examples** include F5 BIG-IP, Citrix ADC, Kemp LoadMaster, A10 Thunder, AWS ELB, Azure Load Balancer, HAProxy, NGINX, Envoy, and Traefik (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding per-instance appliance licensing, and controlling traffic behavior at every layer. The open-source landscape is anchored by **HAProxy** (the high-performance L4/L7 veteran with the lowest latency under load), **NGINX** (the all-purpose web server and reverse proxy), **Envoy** (the service mesh data plane standard), and **Traefik** (the auto-configuring orchestrator-native proxy), with **Caddy** and **IPVS** serving specialized use cases.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## ?? Sector Overview & Market Dynamics
 
 The global Application Delivery Controller (ADC) and Load Balancer market is estimated at **$7B-$9B** (projected to exceed **$20B+ by the mid-2030s** at an estimated 10%-16% CAGR). Historically concentrated around legacy hardware ADC incumbents, the sector is now **moderately fragmented** as enterprises transition to software-defined proxies, multi-cloud architectures, Kubernetes ingress, and hyper-scaler consumption-based services rather than relying on a single winner-take-all platform.
 
-## SaaS/Hosted Platforms
+---
+
+## ?? SaaS & Hosted Platforms
 
 | Product / Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier / Trial Limits | Key Focus & Deployment |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,85 +50,96 @@ The global Application Delivery Controller (ADC) and Load Balancer market is est
 | **[Kemp LoadMaster](https://kemptechnologies.com/)** (Progress Software) | **~$2.0B** Market Cap / **~$978M** FY25 Revenue | **$0.38/hour** (PAYG software utility tier on cloud marketplaces) | **Free forever tier: LoadMaster FREE (VLM-FREE)** capped at **20 Mbps throughput** & **50 SSL TPS** (community support) | High-value, mid-market virtual ADC for SMBs and enterprise edge environments without appliance licensing overhead. |
 | **[A10 Networks Thunder ADC](https://www.a10networks.com/)** (A10 Networks) | **~$1.3B** Market Cap / **~$290M** FY25 Revenue | **$0.97/hour** (200 Mbps throughput tier software license on AWS Marketplace) | **30-day free trial** on AWS Marketplace metered tiers (infrastructure fees apply) | High-performance ADC engineered for hardware/virtual high-throughput, integrated DDoS protection, and SSL inspection. |
 
+---
 
-## Open-Source GitHub Projects
+## ?? Open-Source GitHub Projects
 
+Curated list of leading open-source load balancers, reverse proxies, and traffic directors, sorted by GitHub stargazers.
 
+### Top Tier Load Balancers & Proxies
 
-- **[HAProxy](https://github.com/haproxy/haproxy)**  
+- **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+  ? **The modern, automated web server and reverse proxy.** Features automatic HTTPS with Let's Encrypt / ZeroSSL, native HTTP/2 & HTTP/3 support, dynamic JSON config API, modular Go architecture, and intuitive Caddyfile configuration. Best for fast deployments requiring zero-friction TLS management.
 
-  **The high-performance L4/L7 veteran.** Battle-tested proxy known for low latency under heavy traffic, with rich health checks, detailed stats, and predictable performance . **Configuration**: structured file-based config; modern HAProxy supports dynamic runtime changes via Runtime API and Data Plane API without full reloads . **Benchmark data**: in a Kubernetes ingress comparison, HAProxy handled **~42,000 RPS** vs. Traefik's ~19,000, Envoy's ~18,500, and NGINX's ~11,700—with the lowest 75th/95th/99th latency percentiles and zero HTTP errors . **Trade-offs**: steeper learning curve; no built-in certificate automation . GPL licensed. Best for high-traffic sites and teams that want fine-grained control over load balancing as the primary job.
+- **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+  ? **The cloud-native, orchestrator-aware reverse proxy.** Connects directly to Docker, Kubernetes, Consul, and AWS ECS to automatically generate routes and certificates in real time without downtime or manual reload. Best for microservice and containerized architectures.
 
+- **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+  ? **Cloud-native API gateway and L7 traffic orchestrator.** Built on OpenResty/NGINX engine with Lua/Wasm plugin extensibility, active load balancing, zero-downtime reconfiguration, rate-limiting, authentication, and gRPC routing. Best for enterprise API management and microservices ingress.
 
+- **[NGINX](https://github.com/nginx/nginx)** [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)  
+  ? **The ubiquitous battle-tested web server and reverse proxy.** Provides asynchronous event-driven L4 (Stream) and L7 (HTTP) load balancing (round-robin, least connections, ip-hash), HTTP/3 support, SSL termination, and high-concurrency static caching. Best for general-purpose web serving, caching, and edge routing.
 
-- **[NGINX](https://github.com/nginx/nginx)**  
+- **[Envoy](https://github.com/envoyproxy/envoy)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
+  ? **Cloud-native high-performance edge/middle/service proxy.** CNCF Graduated C++ proxy designed for cloud-native architectures, featuring dynamic configuration via xDS APIs, native gRPC routing, circuit breaking, advanced health checking, and deep distributed tracing observability. Standard data-plane for modern service meshes (Istio, Cilium Service Mesh).
 
-  **The most popular all-purpose choice.** Web server, reverse proxy, and load balancer in one binary. Supports round robin, least connections, and hash-based methods, with TLS termination and caching built in . **Config syntax** is familiar to many teams, lowering the barrier to a first working setup. **Trade-offs**: advanced active health checks and richer metrics sit in the commercial NGINX Plus tier ; less suited to deep L4 tuning. BSD-like licensed (open-source core). Best for teams already serving content with NGINX that want balancing without a second component.
+- **[Cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
+  ? **eBPF-powered high-performance networking, observability, and load balancing.** Replaces kube-proxy with kernel-level eBPF L4 load balancing (XDP), Maglev consistent hashing, mutual TLS, and integrated Ingress / Gateway API support. Best for high-scale Kubernetes clusters seeking near-hardware throughput.
 
+- **[Kubernetes Ingress-NGINX](https://github.com/kubernetes/ingress-nginx)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers)  
+  ? **The community standard Kubernetes Ingress Controller.** Uses NGINX as a reverse proxy and load balancer to expose HTTP and HTTPS routes from outside the cluster to services within the cluster.
 
+- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+  ? **Dynamic, real-time, high-performance Cloud-Native API Gateway & Load Balancer.** Apache Top-Level Project based on NGINX and LuaJIT with etcd dynamic sync, handling traffic distribution, security filtering, canary releases, and full lifecycle API routing without reloads.
 
-- **[Envoy](https://github.com/envoyproxy/envoy)**  
+- **[MetalLB](https://github.com/metallb/metallb)** [![GitHub stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)  
+  ? **Bare-metal network load-balancer implementation for Kubernetes.** Provides a network load balancer implementation for Kubernetes clusters that do not run on a standard cloud provider, using standard routing protocols like ARP/NDP (Layer 2) and BGP.
 
-  **The service mesh data plane standard.** High-performance L4/L7 proxy designed for distributed systems, used as the data plane in many service meshes and as a standalone edge load balancer by Lyft and projects like AWS App Mesh and Gloo . **Features**: advanced traffic shaping, gRPC-native support, deep observability, and dynamic configuration via xDS APIs. **Trade-offs**: operational complexity and verbose configuration model; overkill for simple two-backend setups . Apache 2.0 licensed. Best for microservices, gRPC workloads, and mesh edges.
+- **[HAProxy](https://github.com/haproxy/haproxy)** [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)  
+  ? **The gold standard for ultra-low latency L4 & L7 load balancing.** Legendary event-driven multi-threaded proxy delivering world-class throughput, strict connection pooling, comprehensive health checks, seamless runtime APIs, and rock-solid stability under millions of concurrent connections.
 
+- **[Katran](https://github.com/facebookincubator/katran)** [![GitHub stars](https://img.shields.io/github/stars/facebookincubator/katran?style=social&color=white)](https://github.com/facebookincubator/katran/stargazers)  
+  ? **Ultra-fast L4 network load balancer powered by Linux eBPF and XDP.** Developed and battle-tested by Meta (Facebook) to power their global infrastructure, leveraging kernel bypass techniques for maximum packet per second (PPS) throughput and Maglev hashing.
 
+- **[Emissary-Ingress](https://github.com/emissary-ingress/emissary)** [![GitHub stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
+  ? **Kubernetes-native API Gateway & Ingress Controller powered by Envoy.** CNCF incubating project providing declarative CRD-driven configuration, gRPC/HTTP2 load balancing, rate limiting, and OAuth/OIDC integration for cloud-native Kubernetes workloads.
 
-- **[Traefik](https://github.com/traefik/traefik)**  
+- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)  
+  ? **Standardized Kubernetes Gateway API provider powered by Envoy Proxy.** Simplifies operating Envoy as an application gateway and load balancer in Kubernetes using the modern Gateway API specification.
 
-  **The auto-configuring orchestrator-native proxy.** Listens to your service registry (Docker, Kubernetes, Consul, Etcd, ECS) and **instantly generates routes without restarts**—pointing Traefik at your orchestrator is the only configuration step needed . **Features**: automatic Let's Encrypt HTTPS (including wildcards), circuit breakers, retries, WebSocket/HTTP/2/gRPC support, metrics (Prometheus, Datadog, StatsD), and a clean web UI . **Trade-offs**: in HAProxy's benchmark it produced 1,342 HTTP 502 errors under test conditions (vs. HAProxy's zero) . MIT licensed. Best for dynamic container environments where manual route configuration is untenable.
+### Specialized & High-Throughput Solutions
 
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Caddy** — Automatic HTTPS with built-in ACME, HTTP/2, and HTTP/3. Config via Caddyfile or JSON API. Best for simple reverse proxy and load balancing where TLS automation is the priority .
-
-- **IPVS (IP Virtual Server)** — Kernel-level L4 load balancer built into Linux. Extremely high throughput with minimal overhead. Best for raw L4 performance at scale (used by Kubernetes kube-proxy) .
-
-- **Emissary-Ingress** — Kubernetes-native API gateway and L7 load balancer built on Envoy. CNCF Incubating project (formerly Ambassador API Gateway) with CRD-based configuration, gRPC/HTTP2/WebSocket support, and observability integrations . Best for Kubernetes teams wanting Envoy's power with a declarative ingress layer.
-
-- **Frameworks for building custom systems**: Use **HAProxy** when load balancing is the primary job and you want maximum throughput with detailed control. Use **NGINX** when you're already serving content and want to add balancing. Use **Envoy** for gRPC and service mesh architectures. Use **Traefik** for dynamic container environments where auto-discovery eliminates manual route management. Use **IPVS** for kernel-level L4 performance.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **HAProxy vs NGINX is not a winner-take-all question**: both are excellent. HAProxy often edges ahead on pure proxying at very high connection counts; NGINX wins when one process should serve static files, cache, and balance . Pick based on what else the tool needs to do.
-
-- **Benchmark results are environment-specific**: HAProxy's published benchmark showing 2x throughput vs. competitors was conducted by HAProxy Technologies itself . Independent testing may show different margins.
-
-- **Enterprise ADC features (F5, Citrix, Kemp) include vendor support SLAs and certified security modules that open-source tools do not**: evaluate whether your organization requires vendor accountability before choosing open-source .
-
-
+- **IPVS (IP Virtual Server)** ? Built into the Linux kernel, IPVS implements high-performance Layer-4 transport-layer load balancing (TCP/UDP) with direct routing (DR), NAT, and tunneling modes, handling tens of millions of packets per second.
 
 ---
 
+## ?? How to Contribute
 
+Contributions are always welcome! Help keep this load balancer ecosystem complete and up to date:
 
-**Made for infrastructure engineers, SREs, and architects building reliable traffic distribution.**  
+1. ?? **Fork** the repository on GitHub.
+2. ?? **Create a new branch** (`git checkout -b add-load-balancer-tool`).
+3. ?? **Add or update entries** following existing alphabetical and tabular formats (verify factual details and official docs).
+4. ?? **Commit your changes** (`git commit -m 'Add awesome load balancer'`).
+5. ?? **Push to the branch** (`git push origin add-load-balancer-tool`).
+6. ?? **Open a Pull Request** with a concise description of your additions.
 
-Let's make load balancing more open, performant, and appropriately scoped.
+---
+
+## ?? Support
+
+If you find this curated collection useful, please consider:
+- ? **Starring** the repository on GitHub to boost visibility.
+- ?? **Forking** and contributing new tools, benchmarks, and updates.
+- ?? **Sharing** with your DevOps, SRE, and Infrastructure engineering peers.
+- ? **Buying a coffee / sponsoring** ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ?? Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Load-Balancers&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Load-Balancers&type=date&legend=top-left)
+
+---
+
+## ?? Disclaimer
+
+- This is a **community-curated** list ? not exhaustive and not an endorsement.
+- **HAProxy vs NGINX vs Envoy is not a winner-take-all question**: HAProxy excels at raw throughput and sub-millisecond tail latency at high concurrency; NGINX excels as an all-in-one web server, static cache, and reverse proxy; Envoy excels as a cloud-native dynamic microservice mesh data plane.
+- **Enterprise ADC features (F5, Citrix, Kemp, A10)** include dedicated hardware acceleration ASICs, global server load balancing (GSLB), and vendor enterprise support SLAs that general-purpose open-source tools require separate operational management for.
+
+---
+
+<p align="center">
+  <b>Made with ?? for infrastructure engineers, SREs, and cloud architects building resilient systems.</b>
+</p>
