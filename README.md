@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,44 +42,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Application Delivery Controller (ADC) and Load Balancer market is estimated at **$7B-$9B** (projected to exceed **$20B+ by the mid-2030s** at an estimated 10%-16% CAGR). Historically concentrated around legacy hardware ADC incumbents, the sector is now **moderately fragmented** as enterprises transition to software-defined proxies, multi-cloud architectures, Kubernetes ingress, and hyper-scaler consumption-based services rather than relying on a single winner-take-all platform.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[F5 BIG-IP](https://www.f5.com/)**  
-
-  The enterprise ADC standard. Hardware and virtual appliances with advanced L4-L7 traffic management, iRules scripting, SSL offloading, and application security. Custom pricing; enterprise-tier. Best for large organizations requiring proven appliance reliability, vendor support SLAs, and deep customization.
-
-
-
-- **[Citrix ADC (NetScaler)](https://www.citrix.com/)**  
-
-  Enterprise application delivery controller with L4-L7 load balancing, SSL offload, and application acceleration. Custom pricing. Best for organizations already invested in Citrix's networking ecosystem.
-
-
-
-- **[Kemp LoadMaster](https://kemptechnologies.com/)**  
-
-  Mid-market ADC with per-appliance or per-instance licensing. Strong on ease of use and value pricing. Best for SMBs and mid-market teams wanting enterprise ADC features without enterprise pricing.
-
-
-
-- **[A10 Networks Thunder ADC](https://www.a10networks.com/)**  
-
-  High-performance ADC with advanced DDoS protection, SSL inspection, and global server load balancing. Enterprise-priced. Best for organizations needing security-integrated traffic management.
-
-
-
-- **[AWS Elastic Load Balancing (ELB)](https://aws.amazon.com/elasticloadbalancing/)**  
-
-  Native AWS load balancing: **ALB** (Layer 7, HTTP/HTTPS with advanced routing), **NLB** (Layer 4, ultra-high performance), and **GWLB** (Gateway Load Balancer for third-party appliances). **Pricing**: ALB ~$0.0225/hour plus LCU charges; NLB ~$0.0225/hour plus NLCU charges . Consumption-based. Best for AWS-native architectures.
-
-
-
-- **[Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer/)**  
-
-  Azure's L4 load balancer with Basic and Standard tiers. Integrates with Azure Virtual Machine Scale Sets and availability zones. Consumption-based pricing. Best for Azure-native workloads.
-
+| Product / Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier / Trial Limits | Key Focus & Deployment |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer/)** (Microsoft) | **~$3.1T** Market Cap / **~$245B** FY24 Revenue | **$0.025/hour** (first 5 rules baseline) + **$0.005/GB** data processed | **30-day trial with $200 Azure credits** (Standard SKU has no ongoing free allowance; Basic SKU retired Sept 2025) | Azure-native L4 load balancing with Availability Zone redundancy and inbound NAT. |
+| **[AWS Elastic Load Balancing (ELB)](https://aws.amazon.com/elasticloadbalancing/)** (Amazon AWS) | **~$1.9T** Market Cap / **~$105B+** AWS ARR | **$0.0225/hour** + **$0.008/LCU-hour** (ALB baseline) | **750 hours/month** shared across ALBs/NLBs + **15 LCUs/month** for the first **12 months** (new AWS accounts) | Native AWS L4 (NLB), L7 (ALB), and Gateway (GWLB) managed traffic routing. |
+| **[F5 BIG-IP](https://www.f5.com/)** (F5, Inc.) | **~$15B** Market Cap / **~$3.09B** FY25 Revenue | **$0.35/hour** (entry-level 25 Mbps GOOD bundle on AWS Marketplace PAYG) | **30-day free trial** on AWS Marketplace utility instances (infrastructure fees apply) | Enterprise-grade ADC standard with advanced L4-L7 traffic management, iRules, and SSL offloading. |
+| **[Citrix ADC (NetScaler)](https://www.citrix.com/)** (Cloud Software Group) | **~$8.2B** EV / **~$3.2B+** Annual Revenue Scale | **$5,000/year** (standalone VPX Advanced subscription starting tier) | **Free forever tier: NetScaler VPX Express** capped at **20 Mbps throughput** (also offers **21-day trial** for full VPX) | Enterprise ADC offering L4-L7 traffic acceleration, SSL offload, and native Citrix ecosystem integration. |
+| **[Kemp LoadMaster](https://kemptechnologies.com/)** (Progress Software) | **~$2.0B** Market Cap / **~$978M** FY25 Revenue | **$0.38/hour** (PAYG software utility tier on cloud marketplaces) | **Free forever tier: LoadMaster FREE (VLM-FREE)** capped at **20 Mbps throughput** & **50 SSL TPS** (community support) | High-value, mid-market virtual ADC for SMBs and enterprise edge environments without appliance licensing overhead. |
+| **[A10 Networks Thunder ADC](https://www.a10networks.com/)** (A10 Networks) | **~$1.3B** Market Cap / **~$290M** FY25 Revenue | **$0.97/hour** (200 Mbps throughput tier software license on AWS Marketplace) | **30-day free trial** on AWS Marketplace metered tiers (infrastructure fees apply) | High-performance ADC engineered for hardware/virtual high-throughput, integrated DDoS protection, and SSL inspection. |
 
 
 ## Open-Source GitHub Projects
