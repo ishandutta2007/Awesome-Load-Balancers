@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Load-Balancers?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Load-Balancers?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Load-Balancers?style=flat-square&logo=github" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Load-Balancers/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Load-Balancers?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -58,43 +58,43 @@ Curated list of leading open-source load balancers, reverse proxies, and traffic
 
 ### Top Tier Load Balancers & Proxies
 
-- **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+- **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
   ? **The modern, automated web server and reverse proxy.** Features automatic HTTPS with Let's Encrypt / ZeroSSL, native HTTP/2 & HTTP/3 support, dynamic JSON config API, modular Go architecture, and intuitive Caddyfile configuration. Best for fast deployments requiring zero-friction TLS management.
 
-- **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+- **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
   ? **The cloud-native, orchestrator-aware reverse proxy.** Connects directly to Docker, Kubernetes, Consul, and AWS ECS to automatically generate routes and certificates in real time without downtime or manual reload. Best for microservice and containerized architectures.
 
-- **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+- **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
   ? **Cloud-native API gateway and L7 traffic orchestrator.** Built on OpenResty/NGINX engine with Lua/Wasm plugin extensibility, active load balancing, zero-downtime reconfiguration, rate-limiting, authentication, and gRPC routing. Best for enterprise API management and microservices ingress.
 
-- **[NGINX](https://github.com/nginx/nginx)** [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)  
+- **[NGINX](https://github.com/nginx/nginx)** [![GitHub_Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)  
   ? **The ubiquitous battle-tested web server and reverse proxy.** Provides asynchronous event-driven L4 (Stream) and L7 (HTTP) load balancing (round-robin, least connections, ip-hash), HTTP/3 support, SSL termination, and high-concurrency static caching. Best for general-purpose web serving, caching, and edge routing.
 
-- **[Envoy](https://github.com/envoyproxy/envoy)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
+- **[Envoy](https://github.com/envoyproxy/envoy)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
   ? **Cloud-native high-performance edge/middle/service proxy.** CNCF Graduated C++ proxy designed for cloud-native architectures, featuring dynamic configuration via xDS APIs, native gRPC routing, circuit breaking, advanced health checking, and deep distributed tracing observability. Standard data-plane for modern service meshes (Istio, Cilium Service Mesh).
 
-- **[Cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
+- **[Cilium](https://github.com/cilium/cilium)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
   ? **eBPF-powered high-performance networking, observability, and load balancing.** Replaces kube-proxy with kernel-level eBPF L4 load balancing (XDP), Maglev consistent hashing, mutual TLS, and integrated Ingress / Gateway API support. Best for high-scale Kubernetes clusters seeking near-hardware throughput.
 
-- **[Kubernetes Ingress-NGINX](https://github.com/kubernetes/ingress-nginx)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers)  
+- **[Kubernetes Ingress-NGINX](https://github.com/kubernetes/ingress-nginx)** [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers)  
   ? **The community standard Kubernetes Ingress Controller.** Uses NGINX as a reverse proxy and load balancer to expose HTTP and HTTPS routes from outside the cluster to services within the cluster.
 
-- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
   ? **Dynamic, real-time, high-performance Cloud-Native API Gateway & Load Balancer.** Apache Top-Level Project based on NGINX and LuaJIT with etcd dynamic sync, handling traffic distribution, security filtering, canary releases, and full lifecycle API routing without reloads.
 
-- **[MetalLB](https://github.com/metallb/metallb)** [![GitHub stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)  
+- **[MetalLB](https://github.com/metallb/metallb)** [![GitHub_Stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)  
   ? **Bare-metal network load-balancer implementation for Kubernetes.** Provides a network load balancer implementation for Kubernetes clusters that do not run on a standard cloud provider, using standard routing protocols like ARP/NDP (Layer 2) and BGP.
 
-- **[HAProxy](https://github.com/haproxy/haproxy)** [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)  
+- **[HAProxy](https://github.com/haproxy/haproxy)** [![GitHub_Stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)  
   ? **The gold standard for ultra-low latency L4 & L7 load balancing.** Legendary event-driven multi-threaded proxy delivering world-class throughput, strict connection pooling, comprehensive health checks, seamless runtime APIs, and rock-solid stability under millions of concurrent connections.
 
-- **[Katran](https://github.com/facebookincubator/katran)** [![GitHub stars](https://img.shields.io/github/stars/facebookincubator/katran?style=social&color=white)](https://github.com/facebookincubator/katran/stargazers)  
+- **[Katran](https://github.com/facebookincubator/katran)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookincubator/katran?style=social&color=white)](https://github.com/facebookincubator/katran/stargazers)  
   ? **Ultra-fast L4 network load balancer powered by Linux eBPF and XDP.** Developed and battle-tested by Meta (Facebook) to power their global infrastructure, leveraging kernel bypass techniques for maximum packet per second (PPS) throughput and Maglev hashing.
 
-- **[Emissary-Ingress](https://github.com/emissary-ingress/emissary)** [![GitHub stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
+- **[Emissary-Ingress](https://github.com/emissary-ingress/emissary)** [![GitHub_Stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
   ? **Kubernetes-native API Gateway & Ingress Controller powered by Envoy.** CNCF incubating project providing declarative CRD-driven configuration, gRPC/HTTP2 load balancing, rate limiting, and OAuth/OIDC integration for cloud-native Kubernetes workloads.
 
-- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)  
+- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)  
   ? **Standardized Kubernetes Gateway API provider powered by Envoy Proxy.** Simplifies operating Envoy as an application gateway and load balancer in Kubernetes using the modern Gateway API specification.
 
 ### Specialized & High-Throughput Solutions
